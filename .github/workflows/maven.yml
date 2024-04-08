@@ -43,4 +43,5 @@ jobs:
       with:
         host: ${{ secrets.SONAR_HOST_URL }}
         login: ${{ secrets.SONARQUBE_TOKEN }}
+        projectKey: GitHub-action-scan
 
