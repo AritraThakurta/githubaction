@@ -39,7 +39,7 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
     - name: SonarQube Scan
-      uses: kitabisa/sonarqube-action@v1.2.0
+      uses: SonarSource/sonarcloud-github-action@v2.1.1
       with:
         host: ${{ secrets.SONAR_HOST_URL }}
         login: ${{ secrets.SONARQUBE_TOKEN }}
