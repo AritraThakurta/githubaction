@@ -33,7 +33,6 @@ jobs:
       name: Build & push Docker image
       with:
           image: aritra89/spring-boot-images-new
-          tags: latest
           registry: docker.io
           dockerfile: Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
